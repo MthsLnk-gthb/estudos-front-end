@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Convidados</title>
+  </head>
+
+  <style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  <body>
+    <main>
+      <form id="formulario">
+        <div>
+          <label>Digite o nome da pessoa:</label>
+          <input
+            type="text"
+            id="input-nome"
+            required
+            placeholder="Digite o nome"
+          />
+        </div>
+
+        <div>
+          <label>Digite o telefone da pessoa:</label>
+          <input
+            type="tel"
+            id="input-telefone"
+            placeholder="Digite o Telefone"
+            required
+          />
+        </div>
+
+        <div>
+          <label>Digite a idade da pessoa:</label>
+          <input
+            type="number"
+            id="input-idade"
+            required
+            placeholder="Digite a idade"
+          />
+        </div>
+
+        <button type="submit" id="">Cadastrar</button>
+      </form>
+
+      <section id="lista-de-pessoas"></section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
